@@ -1,0 +1,56 @@
+
+body {
+	text-align: center;
+	animation-name: colorchange;
+	animation-duration: 3s;
+	background-color: rgb(224, 240, 255);
+	}
+
+@keyframes colorchange {
+	0% {background-color: white;}
+	100% {background-color: rgb(224, 240, 255);}
+}
+
+.header {
+	background-color: lavender;
+	height: 20px;
+	padding-top: 2px;
+	padding-bottom: 40px;
+	}
+
+.nav {
+	font-size: 1.5em;
+	padding: 8px;
+	background-color: lightsteelblue;
+	height: 36px;
+	}
+a {
+	padding: 10px;
+	}
+
+#main {
+	font-size: 1.35em;
+	padding: 10px;
+	}
+
+button {
+	font-size: 15px;
+	
+}
+
+#prev {
+	float: left;
+}
+
+#next { 
+	float: right;
+}
+
+img {
+	width: 95%;
+	height: 600px;
+}
+
+.linkedin {
+	color: cornflowerblue;
+}

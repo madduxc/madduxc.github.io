@@ -1,0 +1,48 @@
+.header {
+	background-color: lavender;
+	height: 30px;
+	padding-top: 2px;
+	padding-bottom: 40px;
+	}
+
+body {
+    font-size: 20px;
+    height: 600px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#words {
+    font-size: 20px;
+}
+
+#bulk {
+    height: 400px;
+    width: 70%
+}
+
+form {
+    text-align: left;
+    width: 100%;
+}
+
+#pic {
+    float: right;
+    width: 35%;
+}
+
+img {
+    text-align: right;
+    height: 400px;
+    width: 550px;
+}
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+.header {
+	background-color: lavender;
+	height: 20px;
+	padding-top: 2px;
+	padding-bottom: 40px;
+	}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#auto {
+    text-align: justify;
+    padding-left: 4%;
+    float: left;
+    width: 30%;
+    height: 500px;
+}
+
+.logo {
+    width: 95%;
+    height: 100px;
+}
+
+#engineer {
+    text-align: justify;
+    padding-left: 3%;
+    float: left;
+    width: 30%;
+    height: 500px;
+}
+
+#cs {
+    text-align: justify;
+    padding-left: 3%;
+    float: left;
+    width: 30%;
+    height: 500px;
+}
+
+.scroll {
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+#carTrouble {
+    font-size: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+#year {
+    width: 50px;
+}
+
+#problem {
+    height: 200px;
+    width: 800px;
+}

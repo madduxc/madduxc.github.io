@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Flying</title>
+		<link rel="stylesheet" href="homeStyle.css">
+		<link rel="stylesheet" href="flyingStyle.css">
+	</head>
+	<body>
+		<div class="header">
+			<h1>A Lifetime Love of Aviation</h1>
+		</div>
+		
+		<nav class="nav">
+			<a href="index.html"> Back </a>
+			<a href="hikingPage.html" target= "_blank"> The Backcountry </a>
+			<a href="careerPage.html" target="_blank">Professional Life</a>
+		</nav>
+		<div id="words">
+			I was introduced to aviation from a very young age.  My first flight lesson in a small plane took place before I even learned 
+			to drive.  I received my Private Pilot License when I was 17 and have flown over 300 hours since then.  Learning to fly is a 
+			large commitment, both in time and expense, but few other pursuits provide the freedom and satisfaction fo flying an airplane.  
+			As a pilot, you must be well-versed in many topics, such as basic aerodynamics, mechanical systems, navigation, and weather.  
+			Shown below is a sample of the weather report available to a pilot at most airports.
+			<hr>
+		</div>
+		<div id="bulk">
+				<form>
+						<legend>Get Aviation Weather Report by Airport Identifier</legend>
+						<label for="chart"></label>
+						<input type="text" name="chart" id="chart" placeholder="ex: San Francisco = KSFO">
+						<input type="submit" id="chartSubmit">
+						<span id="pic">
+							<img src="Pictures/08AUG65.JPG" alt="Airplane Picture">
+						</span>
+						<h3>An aviation weather report in "code" (Raw Data) and some interpretations</h3>
+						<span class="weatherList">
+						<ul>
+							<li><span>Raw Data: </span><span id="raw"></span></li>
+							<li><span>Block letters: Airport Identifier</span></li>
+							<li><span>Time: </span><span id="time"></span></li>
+							<li><span>Surface Winds: </span><span id="wind"></span></li>
+							<li><span>(if winds are variable an additional block of information will appear here)</span></li>
+							<li><span>Visibility: </span><span id="vis"></span></li>
+							<li><span>Cloud Data</span></li>
+							<li><span>Temperature: </span><span id="temp"></span></li>
+							<li><span>Dewpoint: </span><span id="dew"></span></li>
+							<li><span>Altimeter: </span><span id="alt"></span></li>
+							<li><span>Remarks</span></li>
+						</ul>
+				</form>
+			</span>
+		</div>
+		<div>
+			Before the computer era, "Raw Data" was the only printed information available
+		</div>
+		<script src="madduxProject.js"></script>
+		<p>
+			<hr>
+		</p>
+		</body>
+		<footer>
+		<a href="https://www.linkedin.com/in/charlesdmaddux/">
+		<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="linkedin">
+			<title>
+			  LinkedIn
+			</title>
+			<g>
+				<path d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z" fill="currentColor"></path>
+			</g>
+		  </svg>
+		</a>
+		<a href="mailto: madduxc@oregonstate.edu">Contact Me</a>
+	</footer>
+</html>
