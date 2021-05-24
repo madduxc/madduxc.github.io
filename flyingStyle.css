@@ -23,8 +23,8 @@ h3 {
 }
 
 #bulk {
-    height: 400px;
-    width: 70%
+    height: 500px;
+    width: 100%
 }
 
 form {
@@ -32,16 +32,10 @@ form {
     width: 100%;
 }
 
-#pic {
+iframe {
     float: right;
-    width: 35%;
 }
 
-img {
-    text-align: right;
-    height: 400px;
-    width: 550px;
-}
 
 footer {
     text-align: center;
