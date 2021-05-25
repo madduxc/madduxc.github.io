@@ -1,7 +1,7 @@
 //AVWX key = aIq5TyRbgL_40gpOsOY-Qqrp5WbCjeFE0upp1iy9W8o
 
 var images = [
-    "1a.jpg",
+    "1.jpg",
     "2.jpg",
     "3.jpg"
 ];
