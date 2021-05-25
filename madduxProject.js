@@ -63,5 +63,5 @@ function prev() {
         num = images.length - 1;
     }
     slider.src = images[num]
-var t.onload = setInterval(next, 5000);
+var t = setInterval(next, 5000);
 }
