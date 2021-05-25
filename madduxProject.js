@@ -1,5 +1,31 @@
 //AVWX key = aIq5TyRbgL_40gpOsOY-Qqrp5WbCjeFE0upp1iy9W8o
 
+var images = [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg"
+];
+var num = 0;
+var t = setInterval(next, 5000);
+
+function next() {
+    var slider = document.getElementById("slider");
+    num += 1;
+    if(num >= images.length) {
+        num = 0;
+    }
+    slider.src = images[num];
+}
+
+function prev() {
+    var slider = document.getElementById("slider");
+    num -= 1;
+    if(num < 0) {
+        num = images.length - 1;
+    }
+    slider.src = images[num]
+}
+
 document.addEventListener("DOMContentLoaded", bindButtons);
 
 function bindButtons(){
@@ -41,27 +67,4 @@ function bindButtons(){
     req.send(null);
     event.preventDefault();
     })
-}
-var images = [
-    "1.jpg",
-    "2.jpg",
-    "3.jpg"
-];
-var num = 0;
-function next() {
-    var slider = document.getElementById("slider");
-    num += 1;
-    if(num >= images.length) {
-        num = 0;
-    }
-    slider.src = images[num];
-}
-function prev() {
-    var slider = document.getElementById("slider");
-    num -= 1;
-    if(num < 0) {
-        num = images.length - 1;
-    }
-    slider.src = images[num]
-var t = setInterval(next, 5000);
 }
