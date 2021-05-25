@@ -48,7 +48,6 @@ var images = [
     "3.jpg"
 ];
 var num = 0;
-var t.onload = setInterval(next, 5000);
 function next() {
     var slider = document.getElementById("slider");
     num += 1;
@@ -64,4 +63,5 @@ function prev() {
         num = images.length - 1;
     }
     slider.src = images[num]
+var t.onload = setInterval(next, 5000);
 }
